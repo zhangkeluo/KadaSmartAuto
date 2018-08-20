@@ -1,0 +1,3 @@
+//没有写，因为需要一个apk的URL，下面的不能运行
+安装#http://nos.netease.com/ct-public/836167391efabd1669975fd7af5875e8.apk?download=app-geek-qatest.apk
+冷启动网易卡搭编程
