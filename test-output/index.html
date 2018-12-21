@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-teach后台20181212_170140.xml">
+              <span class="suite-name border-passed">teach后台20181212_170140.xml</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-teach后台20181212_170140.xml">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-teach后台20181212_170140.xml">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-teach后台20181212_170140.xml">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-teach后台20181212_170140.xml">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-teach后台20181212_170140.xml">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-teach后台20181212_170140.xml">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-teach后台20181212_170140.xml">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-teach后台20181212_170140.xml" class="hide-methods passed suite-teach后台20181212_170140.xml"> (hide)</a> <!-- hide-methods passed suite-teach后台20181212_170140.xml -->
+                      <a href="#" panel-name="suite-teach后台20181212_170140.xml" class="show-methods passed suite-teach后台20181212_170140.xml"> (show)</a> <!-- show-methods passed suite-teach后台20181212_170140.xml -->
+                    </span>
+                    <div class="method-list-content passed suite-teach后台20181212_170140.xml">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-teach后台20181212_170140.xml" title="com.netease.qa.ai.smartauto.runners.Runner1" hash-for-method="runCase(4962, 123456, 我相关的期次.txt1544605304730, 智能调度脚本1, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ...)">runCase(4962, 123456, 我相关的期次.txt1544605304730, 智能调度脚本1, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-teach后台20181212_170140.xml" title="com.netease.qa.ai.smartauto.runners.Runner0" hash-for-method="runCase(4962, 123456, 权限管理.txt1544605304729, 智能调度脚本0, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~S...)">runCase(4962, 123456, 权限管理.txt1544605304729, 智能调度脚本0, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-teach后台20181212_170140.xml -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-teach后台20181212_170140.xml" class="panel teach后台20181212_170140.xml">
+          <div class="suite-teach后台20181212_170140.xml-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.netease.qa.ai.smartauto.runners.Runner0</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runCase(4962, 123456, 权限管理.txt1544605304729, 智能调度脚本0, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~S...)">
+                  </a> <!-- runCase(4962, 123456, 权限管理.txt1544605304729, 智能调度脚本0, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~S...) -->
+                  <span class="method-name">runCase</span>
+                  <span class="parameters">(4962, 123456, 权限管理.txt1544605304729, 智能调度脚本0, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 <参数1> <参数2>~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt <test@163.com> <testpassword>~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~//最大化浏览器窗口~SALS~点击邮箱登录~SALS~点击请输入邮箱帐号输入框~SALS~在请输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~点击请输入密码~SALS~在请输入密码输入#qa1234~SALS~点击登 录~SALS~等待2s~SALS~点击权限管理下侧元素~SALS~等待2s~SALS~// 1）编辑~SALS~点击编辑~SALS~点击课程负责人~SALS~存在课程负责人、班次负责人、讲师、助教需要在课程内容设置中指定或解除！~SALS~点击知道了~SALS~点击超级管理员~SALS~存在超级管理员角色不支持修改~SALS~点击知道了~SALS~点击教学负责人~SALS~存在课程负责人、班次负责人、讲师、助教需要在课程内容设置中指定或解除！~SALS~点击知道了~SALS~点击备注名右侧元素~SALS~向备注名右侧元素输入#uiautotest~SALS~点击保存~SALS~等待2s~SALS~存在添加成员~SALS~存在uiautotest~SALS~// 2）添加一个成员（zklqa3@163.com）~SALS~点击添加成员~SALS~点击添加~SALS~在添加成员下侧元素输入#zklqa3@163.com~SALS~回车~SALS~存在1144921478~SALS~点击确认添加~SALS~点击备注名右侧元素~SALS~在备注名右侧元素输入#uiauto-备注~SALS~点击保存~SALS~点击成员设置~SALS~等待2s~SALS~左滑~SALS~存在删除~SALS~// 3）删除成员~SALS~点击删除~SALS~存在确定删除该成员吗？~SALS~点击取消~SALS~点击删除~SALS~点击确定~SALS~等待2s~SALS~// 4）查看~SALS~左滑~SALS~点击查看~SALS~存在该身份负责的范围如下:~SALS~点击渠道-编程-scratch-零基础~SALS~等待2s~SALS~存在400000003194936~SALS~关闭当前窗口~SALS~点击知道了~SALS~// 4）角色权限说明~SALS~点击角色权限说明~SALS~存在自定义角色~SALS~点击成员设置~SALS~等待2s~SALS~存在添加成员, {"switch":false,"package":""})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-teach后台20181212_170140.xml-class-passed -->
+          <div class="suite-teach后台20181212_170140.xml-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.netease.qa.ai.smartauto.runners.Runner1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runCase(4962, 123456, 我相关的期次.txt1544605304730, 智能调度脚本1, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ...)">
+                  </a> <!-- runCase(4962, 123456, 我相关的期次.txt1544605304730, 智能调度脚本1, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ...) -->
+                  <span class="method-name">runCase</span>
+                  <span class="parameters">(4962, 123456, 我相关的期次.txt1544605304730, 智能调度脚本1, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~//note：hover问号icon没有写~SALS~最大化浏览器窗口~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 <参数1> <参数2>~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt <test@163.com> <testpassword>~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~//最大化浏览器窗口~SALS~点击邮箱登录~SALS~点击请输入邮箱帐号输入框~SALS~在请输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~点击请输入密码~SALS~在请输入密码输入#qa1234~SALS~点击登 录~SALS~等待2s~SALS~点击工作台~SALS~存在teach后台UI自动化测试机构~SALS~//hover教学负责人右侧元素~SALS~// 1）点击期次名称~SALS~点击收费-可学-有实体~SALS~等待2s~SALS~存在Scratch作业~SALS~关闭当前窗口~SALS~存在工作台~SALS~// 2）点击“批改”button~SALS~左滑~SALS~点击批改~SALS~等待2s~SALS~存在Scratch作业~SALS~关闭当前窗口~SALS~存在工作台, {"switch":false,"package":""})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-teach后台20181212_170140.xml-class-passed -->
+        </div> <!-- panel teach后台20181212_170140.xml -->
+        <div panel-name="test-xml-teach后台20181212_170140.xml" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;teach后台20181212_170140.xml&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;_智能调度脚本0_&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.netease.qa.ai.smartauto.runners.Runner0&quot;&gt;
+        &lt;parameter name=&quot;caseLines&quot; value=&quot;// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&amp;gt;API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &amp;lt;参数1&amp;gt; &amp;lt;参数2&amp;gt;~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt &amp;lt;test@163.com&amp;gt; &amp;lt;testpassword&amp;gt;~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~//最大化浏览器窗口~SALS~点击邮箱登录~SALS~点击请输入邮箱帐号输入框~SALS~在请输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~点击请输入密码~SALS~在请输入密码输入#qa1234~SALS~点击登 录~SALS~等待2s~SALS~点击权限管理下侧元素~SALS~等待2s~SALS~// 1）编辑~SALS~点击编辑~SALS~点击课程负责人~SALS~存在课程负责人、班次负责人、讲师、助教需要在课程内容设置中指定或解除！~SALS~点击知道了~SALS~点击超级管理员~SALS~存在超级管理员角色不支持修改~SALS~点击知道了~SALS~点击教学负责人~SALS~存在课程负责人、班次负责人、讲师、助教需要在课程内容设置中指定或解除！~SALS~点击知道了~SALS~点击备注名右侧元素~SALS~向备注名右侧元素输入#uiautotest~SALS~点击保存~SALS~等待2s~SALS~存在添加成员~SALS~存在uiautotest~SALS~// 2）添加一个成员（zklqa3@163.com）~SALS~点击添加成员~SALS~点击添加~SALS~在添加成员下侧元素输入#zklqa3@163.com~SALS~回车~SALS~存在1144921478~SALS~点击确认添加~SALS~点击备注名右侧元素~SALS~在备注名右侧元素输入#uiauto-备注~SALS~点击保存~SALS~点击成员设置~SALS~等待2s~SALS~左滑~SALS~存在删除~SALS~// 3）删除成员~SALS~点击删除~SALS~存在确定删除该成员吗？~SALS~点击取消~SALS~点击删除~SALS~点击确定~SALS~等待2s~SALS~// 4）查看~SALS~左滑~SALS~点击查看~SALS~存在该身份负责的范围如下:~SALS~点击渠道-编程-scratch-零基础~SALS~等待2s~SALS~存在400000003194936~SALS~关闭当前窗口~SALS~点击知道了~SALS~// 4）角色权限说明~SALS~点击角色权限说明~SALS~存在自定义角色~SALS~点击成员设置~SALS~等待2s~SALS~存在添加成员&quot;/&gt;
+        &lt;parameter name=&quot;suiteId&quot; value=&quot;4962&quot;/&gt;
+        &lt;parameter name=&quot;dependsOnTest&quot; value=&quot;&quot;/&gt;
+        &lt;parameter name=&quot;caseId&quot; value=&quot;权限管理.txt1544605304729&quot;/&gt;
+        &lt;parameter name=&quot;groupId&quot; value=&quot;智能调度脚本0&quot;/&gt;
+        &lt;parameter name=&quot;taskId&quot; value=&quot;123456&quot;/&gt;
+        &lt;parameter name=&quot;dependsOnGroup&quot; value=&quot;&quot;/&gt;
+        &lt;parameter name=&quot;extInfo&quot; value=&quot;{&amp;quot;switch&amp;quot;:false,&amp;quot;package&amp;quot;:&amp;quot;&amp;quot;}&quot;/&gt;
+      &lt;/class&gt; &lt;!-- com.netease.qa.ai.smartauto.runners.Runner0 --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- _智能调度脚本0_ --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;_智能调度脚本1_&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.netease.qa.ai.smartauto.runners.Runner1&quot;&gt;
+        &lt;parameter name=&quot;caseLines&quot; value=&quot;// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&amp;gt;API文档“ ~SALS~//note：hover问号icon没有写~SALS~最大化浏览器窗口~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &amp;lt;参数1&amp;gt; &amp;lt;参数2&amp;gt;~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt &amp;lt;test@163.com&amp;gt; &amp;lt;testpassword&amp;gt;~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~//最大化浏览器窗口~SALS~点击邮箱登录~SALS~点击请输入邮箱帐号输入框~SALS~在请输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~点击请输入密码~SALS~在请输入密码输入#qa1234~SALS~点击登 录~SALS~等待2s~SALS~点击工作台~SALS~存在teach后台UI自动化测试机构~SALS~//hover教学负责人右侧元素~SALS~// 1）点击期次名称~SALS~点击收费-可学-有实体~SALS~等待2s~SALS~存在Scratch作业~SALS~关闭当前窗口~SALS~存在工作台~SALS~// 2）点击“批改”button~SALS~左滑~SALS~点击批改~SALS~等待2s~SALS~存在Scratch作业~SALS~关闭当前窗口~SALS~存在工作台&quot;/&gt;
+        &lt;parameter name=&quot;suiteId&quot; value=&quot;4962&quot;/&gt;
+        &lt;parameter name=&quot;dependsOnTest&quot; value=&quot;&quot;/&gt;
+        &lt;parameter name=&quot;caseId&quot; value=&quot;我相关的期次.txt1544605304730&quot;/&gt;
+        &lt;parameter name=&quot;groupId&quot; value=&quot;智能调度脚本1&quot;/&gt;
+        &lt;parameter name=&quot;taskId&quot; value=&quot;123456&quot;/&gt;
+        &lt;parameter name=&quot;dependsOnGroup&quot; value=&quot;&quot;/&gt;
+        &lt;parameter name=&quot;extInfo&quot; value=&quot;{&amp;quot;switch&amp;quot;:false,&amp;quot;package&amp;quot;:&amp;quot;&amp;quot;}&quot;/&gt;
+      &lt;/class&gt; &lt;!-- com.netease.qa.ai.smartauto.runners.Runner1 --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- _智能调度脚本1_ --&gt;
+&lt;/suite&gt; &lt;!-- teach后台20181212_170140.xml --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-teach后台20181212_170140.xml" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for teach后台20181212_170140.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">_智能调度脚本0_ (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">_智能调度脚本1_ (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-teach后台20181212_170140.xml" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for teach后台20181212_170140.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">我相关的期次.txt1544605304730</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">智能调度脚本0</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">智能调度脚本1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">权限管理.txt1544605304729</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-teach后台20181212_170140.xml" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for teach后台20181212_170140.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_teach后台20181212_170140.xml');
+function tableData_teach后台20181212_170140.xml() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runCase')
+data.setCell(0, 2, 'com.netease.qa.ai.smartauto.runners.Runner0')
+data.setCell(0, 3, 127969);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runCase')
+data.setCell(1, 2, 'com.netease.qa.ai.smartauto.runners.Runner1')
+data.setCell(1, 3, 43070);
+window.suiteTableData['teach后台20181212_170140.xml']= { tableData: data, tableDiv: 'times-div-teach后台20181212_170140.xml'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-teach后台20181212_170140.xml">
+              </div> <!-- times-div-teach后台20181212_170140.xml -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-teach后台20181212_170140.xml" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for teach后台20181212_170140.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-teach后台20181212_170140.xml" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-teach后台20181212_170140.xml" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.netease.qa.ai.smartauto.runners.Runner0</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runCase(4962, 123456, 权限管理.txt1544605304729, 智能调度脚本0, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~S...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.netease.qa.ai.smartauto.runners.Runner1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runCase(4962, 123456, 我相关的期次.txt1544605304730, 智能调度脚本1, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">unregisterDevice(智能调度脚本1, 4962, 123456)</span>
+                <span class="method-start">43072 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.netease.qa.ai.smartauto.runners.Runner0</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unregisterDevice(智能调度脚本0, 4962, 123456)</span>
+                <span class="method-start">127969 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
