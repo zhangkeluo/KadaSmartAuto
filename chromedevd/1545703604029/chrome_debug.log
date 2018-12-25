@@ -1,5 +1,0 @@
-[16544:12972:1225/100644.912:WARNING:discovery_network_list_win.cc(195)] Failed to open Wlan client handle: 1062
-[16544:8180:1225/100645.736:WARNING:CONSOLE(0)] "HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.", source:  (0)
-[16544:8180:1225/100645.837:WARNING:CONSOLE(77)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://ssl.gstatic.com/chrome/components/doodle-notifier-02.html (77)
-[16544:8180:1225/100646.862:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.
-[16544:8180:1225/100646.862:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.
