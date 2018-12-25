@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="11" name="Failed suite [teach后台UI20181224_165644.xml]" parallel="tests">
+  <test thread-count="11" name="_智能调度脚本8_(failed)" parallel="tests">
+    <classes>
+      <class name="com.netease.qa.ai.smartauto.runners.Runner8">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~最大化浏览器窗口~SALS~点击邮箱登录~SALS~点击请输入邮箱帐号输入框~SALS~在输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~在密码输入框输入#qa1234~SALS~点击登 录~SALS~//进入teachUI自动化测试课程-公告~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll~SALS~等待2s~SALS~// 1 邮箱添加学生（已存在的学生-zklqa3）~SALS~点击添加学生~SALS~点击用户ID~SALS~点击邮箱~SALS~点击请输入邮箱~SALS~在邮箱右侧元素输入#zklqa3@163.com~SALS~在邮箱上侧元素输入#zklqa3~SALS~点击确定并存在提示该账号已经加入班级了~SALS~点击取消~SALS~// 2 邮箱添加学生（不存在的学生-zklqa5）~SALS~点击添加学生~SALS~点击用户ID~SALS~点击邮箱~SALS~点击确定~SALS~在邮箱不能为空上侧元素输入#zklqa5@163.com~SALS~在仅支持中英文、数字、下划线、中划线上侧元素输入#zklqa5~SALS~点击确定并存在提示添加成功~SALS~等待2s~SALS~点击正式~SALS~点击全部类型~SALS~存在zklqa5~SALS~// 3 删除学生（zklqa5）~SALS~打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list~SALS~等待2s~SALS~在请输入期次ID搜索查询输入框中输入#400000003522074~SALS~回车~SALS~存在1144926331~SALS~点击第一个删除~SALS~存在确定在本期次内删除该学生吗~SALS~点击取消左侧元素~SALS~不存在1144926331~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll~SALS~等待2s~SALS~// 4 用户ID添加学生~SALS~点击添加学生~SALS~点击确定~SALS~在用户ID不能为空上侧元素输入#1144926331~SALS~在仅支持中英文、数字、下划线、中划线上侧元素输入#zklqa5~SALS~点击确定并存在提示添加成功~SALS~等待2s~SALS~如果存在正式#然后#点击正式~SALS~点击全部类型~SALS~存在zklqa5~SALS~// 5 删除学生（zklqa5）~SALS~打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list~SALS~等待2s~SALS~在请输入期次ID搜索查询输入框中输入#400000003522074~SALS~回车~SALS~存在1144926331~SALS~点击第一个删除~SALS~存在确定在本期次内删除该学生吗~SALS~点击取消左侧元素~SALS~不存在1144926331~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll~SALS~等待2s~SALS~// 6 手机号添加学生~SALS~点击添加学生~SALS~点击用户ID~SALS~点击手机号~SALS~点击确定~SALS~在手机号不能为空上侧元素输入#15669938143~SALS~在仅支持中英文、数字、下划线、中划线上侧元素输入#手机号测试登录~SALS~点击确定并存在提示添加成功~SALS~等待2s~SALS~如果存在正式#然后#点击正式~SALS~点击全部类型~SALS~存在手机号测试登录~SALS~// 6 删除学生（15669938143）~SALS~打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list~SALS~等待2s~SALS~在请输入期次ID搜索查询输入框中输入#400000003522074~SALS~回车~SALS~存在15669938143~SALS~点击15669938143右侧元素~SALS~存在确定在本期次内删除该学生吗~SALS~点击取消左侧元素~SALS~不存在15669938143~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll~SALS~等待2s~SALS~如果存在正式#然后#点击正式~SALS~点击全部类型~SALS~不存在15669938143"/>
+        <parameter name="suiteId" value="5532"/>
+        <parameter name="dependsOnTest" value=""/>
+        <parameter name="caseId" value="学生管理.txt1545641805306"/>
+        <parameter name="groupId" value="智能调度脚本8"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value=""/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner8 -->
+    </classes>
+  </test> <!-- _智能调度脚本8_(failed) -->
+</suite> <!-- Failed suite [teach后台UI20181224_165644.xml] -->

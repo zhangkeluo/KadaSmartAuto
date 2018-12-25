@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [case 220181225_101814.xml]" parallel="tests">
+  <test thread-count="2" name="_设备2_(failed)" parallel="tests">
+    <classes>
+      <class name="com.netease.qa.ai.smartauto.runners.Runner5">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~最大化浏览器窗口~SALS~点击邮箱登录~SALS~在邮箱登录下侧元素输入#xdfqa7@163.com~SALS~//在输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~在密码输入框输入#qa1234~SALS~点击登 录~SALS~//进入teachUI自动化测试课程-公告~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/teachTeam~SALS~等待2s~SALS~// 1 替换教学负责人（xdfqa7换xdfqa7）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#xdfqa7@163.com~SALS~回车~SALS~存在1144028596~SALS~点击确认添加~SALS~存在您已添加该员工为教学负责人~SALS~点击确定~SALS~// 2 替换教学负责人（zklqa1）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#zklqa1@163.com~SALS~回车~SALS~存在1019294259~SALS~点击确认添加~SALS~不存在xdfqa7勿动~SALS~存在zklqa1勿动~SALS~// 3 替换教学负责人（xdfqa7替换zklqa1）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#xdfqa7@163.com~SALS~回车~SALS~存在1144028596~SALS~点击确认添加~SALS~存在xdfqa7勿动~SALS~// 3 添加讲师（zklqa2）~SALS~//存在讲师~SALS~//点击添加讲师~SALS~//在请输入邮箱账号、手机号或ID查找输入框输入#zklqa2@163.com~SALS~//回车~SALS~//存在1144928299~SALS~//点击确认添加~SALS~//存在zklqa2勿动~SALS~// 4 删除讲师（zklqa2）~SALS~//hoverzklqa2勿动~SALS~//点击删除~SALS~//存在确定要删除吗~SALS~//点击确定~SALS~//不存在zklqa2勿动"/>
+        <parameter name="suiteId" value="5577"/>
+        <parameter name="dependsOnTest" value="期次介绍页.txt1545704295849"/>
+        <parameter name="caseId" value="课程团队.txt1545704295849"/>
+        <parameter name="groupId" value="设备2"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value=""/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner5 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner11">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~最大化浏览器窗口~SALS~点击邮箱登录~SALS~在邮箱登录下侧元素输入#xdfqa7@163.com~SALS~//在输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~在密码输入框输入#qa1234~SALS~点击登 录~SALS~//进入teachUI自动化测试课程-公告~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/teachTeam~SALS~等待2s~SALS~// 1 替换教学负责人（xdfqa7换xdfqa7）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#xdfqa7@163.com~SALS~回车~SALS~存在1144028596~SALS~点击确认添加~SALS~存在您已添加该员工为教学负责人~SALS~点击确定~SALS~// 2 替换教学负责人（zklqa1）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#zklqa1@163.com~SALS~回车~SALS~存在1019294259~SALS~点击确认添加~SALS~不存在xdfqa7勿动~SALS~存在zklqa1勿动~SALS~// 3 替换教学负责人（xdfqa7替换zklqa1）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#xdfqa7@163.com~SALS~回车~SALS~存在1144028596~SALS~点击确认添加~SALS~存在xdfqa7勿动~SALS~// 3 添加讲师（zklqa2）~SALS~//存在讲师~SALS~//点击添加讲师~SALS~//在请输入邮箱账号、手机号或ID查找输入框输入#zklqa2@163.com~SALS~//回车~SALS~//存在1144928299~SALS~//点击确认添加~SALS~//存在zklqa2勿动~SALS~// 4 删除讲师（zklqa2）~SALS~//hoverzklqa2勿动~SALS~//点击删除~SALS~//存在确定要删除吗~SALS~//点击确定~SALS~//不存在zklqa2勿动"/>
+        <parameter name="suiteId" value="5577"/>
+        <parameter name="dependsOnTest" value="期次介绍页.txt1545704295849"/>
+        <parameter name="caseId" value="课程团队.txt1545704295849"/>
+        <parameter name="groupId" value="设备2"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value=""/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner11 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner10">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~最大化浏览器窗口~SALS~点击邮箱登录~SALS~在邮箱登录下侧元素输入#xdfqa7@163.com~SALS~//在输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~在密码输入框输入#qa1234~SALS~点击登 录~SALS~//进入teachUI自动化测试课程-公告~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/teachTeam~SALS~等待2s~SALS~// 1 替换教学负责人（xdfqa7换xdfqa7）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#xdfqa7@163.com~SALS~回车~SALS~存在1144028596~SALS~点击确认添加~SALS~存在您已添加该员工为教学负责人~SALS~点击确定~SALS~// 2 替换教学负责人（zklqa1）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#zklqa1@163.com~SALS~回车~SALS~存在1019294259~SALS~点击确认添加~SALS~不存在xdfqa7勿动~SALS~存在zklqa1勿动~SALS~// 3 替换教学负责人（xdfqa7替换zklqa1）~SALS~存在讲师~SALS~点击替换~SALS~在请输入邮箱账号、手机号或ID查找输入框输入#xdfqa7@163.com~SALS~回车~SALS~存在1144028596~SALS~点击确认添加~SALS~存在xdfqa7勿动~SALS~// 3 添加讲师（zklqa2）~SALS~//存在讲师~SALS~//点击添加讲师~SALS~//在请输入邮箱账号、手机号或ID查找输入框输入#zklqa2@163.com~SALS~//回车~SALS~//存在1144928299~SALS~//点击确认添加~SALS~//存在zklqa2勿动~SALS~// 4 删除讲师（zklqa2）~SALS~//hoverzklqa2勿动~SALS~//点击删除~SALS~//存在确定要删除吗~SALS~//点击确定~SALS~//不存在zklqa2勿动"/>
+        <parameter name="suiteId" value="5577"/>
+        <parameter name="dependsOnTest" value="期次介绍页.txt1545704295849"/>
+        <parameter name="caseId" value="课程团队.txt1545704295849"/>
+        <parameter name="groupId" value="设备2"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value=""/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner10 -->
+    </classes>
+  </test> <!-- _设备2_(failed) -->
+</suite> <!-- Failed suite [case 220181225_101814.xml] -->

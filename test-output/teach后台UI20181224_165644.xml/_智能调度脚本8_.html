@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>TestNG:  _智能调度脚本8_</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>_智能调度脚本8_</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 24 16:56:45 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>550 seconds (550390 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.netease.qa.ai.smartauto.runners.Runner8.runCase()'><b>runCase</b><br>Test class: com.netease.qa.ai.smartauto.runners.Runner8<br>Parameters: 5532, 123456, 学生管理.txt1545641805306, 智能调度脚本8, , , // 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 <参数1> <参数2>~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt <test@163.com> <testpassword>~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~最大化浏览器窗口~SALS~点击邮箱登录~SALS~点击请输入邮箱帐号输入框~SALS~在输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~在密码输入框输入#qa1234~SALS~点击登 录~SALS~//进入teachUI自动化测试课程-公告~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll~SALS~等待2s~SALS~// 1 邮箱添加学生（已存在的学生-zklqa3）~SALS~点击添加学生~SALS~点击用户ID~SALS~点击邮箱~SALS~点击请输入邮箱~SALS~在邮箱右侧元素输入#zklqa3@163.com~SALS~在邮箱上侧元素输入#zklqa3~SALS~点击确定并存在提示该账号已经加入班级了~SALS~点击取消~SALS~// 2 邮箱添加学生（不存在的学生-zklqa5）~SALS~点击添加学生~SALS~点击用户ID~SALS~点击邮箱~SALS~点击确定~SALS~在邮箱不能为空上侧元素输入#zklqa5@163.com~SALS~在仅支持中英文、数字、下划线、中划线上侧元素输入#zklqa5~SALS~点击确定并存在提示添加成功~SALS~等待2s~SALS~点击正式~SALS~点击全部类型~SALS~存在zklqa5~SALS~// 3 删除学生（zklqa5）~SALS~打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list~SALS~等待2s~SALS~在请输入期次ID搜索查询输入框中输入#400000003522074~SALS~回车~SALS~存在1144926331~SALS~点击第一个删除~SALS~存在确定在本期次内删除该学生吗~SALS~点击取消左侧元素~SALS~不存在1144926331~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll~SALS~等待2s~SALS~// 4 用户ID添加学生~SALS~点击添加学生~SALS~点击确定~SALS~在用户ID不能为空上侧元素输入#1144926331~SALS~在仅支持中英文、数字、下划线、中划线上侧元素输入#zklqa5~SALS~点击确定并存在提示添加成功~SALS~等待2s~SALS~如果存在正式#然后#点击正式~SALS~点击全部类型~SALS~存在zklqa5~SALS~// 5 删除学生（zklqa5）~SALS~打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list~SALS~等待2s~SALS~在请输入期次ID搜索查询输入框中输入#400000003522074~SALS~回车~SALS~存在1144926331~SALS~点击第一个删除~SALS~存在确定在本期次内删除该学生吗~SALS~点击取消左侧元素~SALS~不存在1144926331~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll~SALS~等待2s~SALS~// 6 手机号添加学生~SALS~点击添加学生~SALS~点击用户ID~SALS~点击手机号~SALS~点击确定~SALS~在手机号不能为空上侧元素输入#15669938143~SALS~在仅支持中英文、数字、下划线、中划线上侧元素输入#手机号测试登录~SALS~点击确定并存在提示添加成功~SALS~等待2s~SALS~如果存在正式#然后#点击正式~SALS~点击全部类型~SALS~存在手机号测试登录~SALS~// 6 删除学生（15669938143）~SALS~打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list~SALS~等待2s~SALS~在请输入期次ID搜索查询输入框中输入#400000003522074~SALS~回车~SALS~存在15669938143~SALS~点击15669938143右侧元素~SALS~存在确定在本期次内删除该学生吗~SALS~点击取消左侧元素~SALS~不存在15669938143~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll~SALS~等待2s~SALS~如果存在正式#然后#点击正式~SALS~点击全部类型~SALS~不存在15669938143, {"switch":false,"package":""}</td>
+<td><div><pre>java.lang.AssertionError: 执行失败或程序异常：点击添加学生。截图及报告：http://smartauto.hz.netease.com/report/casereport?case_id=72518&amp;device_id=3675
+	at com.netease.qa.ai.smartauto.runners.Runner8.runCase(Runner8.java:31)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace399403992", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace399403992'><pre>java.lang.AssertionError: 执行失败或程序异常：点击添加学生。截图及报告：http://smartauto.hz.netease.com/report/casereport?case_id=72518&amp;device_id=3675
+	at org.testng.Assert.fail(Assert.java:97)
+	at com.netease.qa.ai.smartauto.runners.Runner8.runCase(Runner8.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:998)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>550</td>
+<td>com.netease.qa.ai.smartauto.runners.Runner8@7c37508a</td></tr>
+</table><p>
+</body>
+</html>

@@ -353,5 +353,270 @@
       <line>点击版权及可见性</line>
       <line>不存在天后完全关闭</line>
     </test>
+    <test id="价格设置.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\价格设置.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+      <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
+      <line>#宏 登录-online.mtxt</line>
+      <line>//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )</line>
+      <line>//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;</line>
+      <line>//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用</line>
+      <line>//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;</line>
+      <line>//宏文件内部 eg：在账号输入框输入$[1]</line>
+      <line>//                           在密码输入框输入$[2]</line>
+      <line>清除cookie</line>
+      <line>//线上-UI自动化测试机构</line>
+      <line>打开#http://teach.geek.163.com/400000000672064.htm</line>
+      <line>//测试环境-UI自动化测试机构</line>
+      <line>//打开#http://teach.geek.163.com/400000001381002.htm</line>
+      <line>最大化浏览器窗口</line>
+      <line>点击邮箱登录</line>
+      <line>点击请输入邮箱帐号输入框</line>
+      <line>在输入邮箱帐号输入框输入#xdfqa7@163.com</line>
+      <line>在密码输入框输入#qa1234</line>
+      <line>点击登 录</line>
+      <line>//进入teachUI自动化测试课程-公告</line>
+      <line>打开#http://teach.geek.163.com/terms/400000003522074#/price</line>
+      <line>等待2s</line>
+      <line/>
+      <line>// 1 原价输入 100000  100.001</line>
+      <line>在原价右侧元素输入#100000</line>
+      <line>点击保存并发布</line>
+      <line>存在请输入正确的阿拉伯数字</line>
+      <line>在原价右侧元素输入#100.001</line>
+      <line>点击保存并发布</line>
+      <line>存在请输入正确的阿拉伯数字</line>
+      <line>在原价右侧元素输入#100</line>
+      <line/>
+      <line>// 2 现价输入 100000  100.001</line>
+      <line>在收费右侧元素输入#100000</line>
+      <line>点击保存并发布</line>
+      <line>存在请输入正确的阿拉伯数字</line>
+      <line>在收费右侧元素输入#100.001</line>
+      <line>点击保存并发布</line>
+      <line>存在请输入正确的阿拉伯数字</line>
+      <line/>
+      <line>// 3 现价输入101</line>
+      <line>在收费右侧元素输入#101</line>
+      <line>点击保存并发布</line>
+      <line>存在原价需高于现价</line>
+      <line>存在现价需低于原价</line>
+      <line>在收费右侧元素输入#0.01</line>
+      <line>点击保存并发布并存在提示保存成功</line>
+      <line/>
+    </test>
+    <test id="学生管理.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\学生管理.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+      <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
+      <line>#宏 登录-online.mtxt</line>
+      <line>//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )</line>
+      <line>//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;</line>
+      <line>//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用</line>
+      <line>//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;</line>
+      <line>//宏文件内部 eg：在账号输入框输入$[1]</line>
+      <line>//                           在密码输入框输入$[2]</line>
+      <line>清除cookie</line>
+      <line>//线上-UI自动化测试机构</line>
+      <line>打开#http://teach.geek.163.com/400000000672064.htm</line>
+      <line>//测试环境-UI自动化测试机构</line>
+      <line>//打开#http://teach.geek.163.com/400000001381002.htm</line>
+      <line>最大化浏览器窗口</line>
+      <line>点击邮箱登录</line>
+      <line>点击请输入邮箱帐号输入框</line>
+      <line>在输入邮箱帐号输入框输入#xdfqa7@163.com</line>
+      <line>在密码输入框输入#qa1234</line>
+      <line>点击登 录</line>
+      <line>//进入teachUI自动化测试课程-公告</line>
+      <line>打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll</line>
+      <line>等待2s</line>
+      <line/>
+      <line>// 1 邮箱添加学生（已存在的学生-zklqa3）</line>
+      <line>点击添加学生</line>
+      <line>点击用户ID</line>
+      <line>点击邮箱</line>
+      <line>点击请输入邮箱</line>
+      <line>在邮箱右侧元素输入#zklqa3@163.com</line>
+      <line>在邮箱上侧元素输入#zklqa3</line>
+      <line>点击确定并存在提示该账号已经加入班级了</line>
+      <line>点击取消</line>
+      <line/>
+      <line>// 2 邮箱添加学生（不存在的学生-zklqa5）</line>
+      <line>点击添加学生</line>
+      <line>点击用户ID</line>
+      <line>点击邮箱</line>
+      <line>点击确定</line>
+      <line>在邮箱不能为空上侧元素输入#zklqa5@163.com</line>
+      <line>在仅支持中英文、数字、下划线、中划线上侧元素输入#zklqa5</line>
+      <line>点击确定并存在提示添加成功</line>
+      <line>等待2s</line>
+      <line>点击正式</line>
+      <line>点击全部类型</line>
+      <line>存在zklqa5</line>
+      <line/>
+      <line>// 3 删除学生（zklqa5）</line>
+      <line>打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list</line>
+      <line>等待2s</line>
+      <line>在请输入期次ID搜索查询输入框中输入#400000003522074</line>
+      <line>回车</line>
+      <line>存在1144926331</line>
+      <line>点击第一个删除</line>
+      <line>存在确定在本期次内删除该学生吗</line>
+      <line>点击取消左侧元素</line>
+      <line>不存在1144926331</line>
+      <line>打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll</line>
+      <line>等待2s</line>
+      <line/>
+      <line>// 4 用户ID添加学生</line>
+      <line>点击添加学生</line>
+      <line>点击确定</line>
+      <line>在用户ID不能为空上侧元素输入#1144926331</line>
+      <line>在仅支持中英文、数字、下划线、中划线上侧元素输入#zklqa5</line>
+      <line>点击确定并存在提示添加成功</line>
+      <line>等待2s</line>
+      <line>如果存在正式#然后#点击正式</line>
+      <line>点击全部类型</line>
+      <line>存在zklqa5</line>
+      <line/>
+      <line>// 5 删除学生（zklqa5）</line>
+      <line>打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list</line>
+      <line>等待2s</line>
+      <line>在请输入期次ID搜索查询输入框中输入#400000003522074</line>
+      <line>回车</line>
+      <line>存在1144926331</line>
+      <line>点击第一个删除</line>
+      <line>存在确定在本期次内删除该学生吗</line>
+      <line>点击取消左侧元素</line>
+      <line>不存在1144926331</line>
+      <line>打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll</line>
+      <line>等待2s</line>
+      <line/>
+      <line>// 6 手机号添加学生</line>
+      <line>点击添加学生</line>
+      <line>点击用户ID</line>
+      <line>点击手机号</line>
+      <line>点击确定</line>
+      <line>在手机号不能为空上侧元素输入#15669938143</line>
+      <line>在仅支持中英文、数字、下划线、中划线上侧元素输入#手机号测试登录</line>
+      <line>点击确定并存在提示添加成功</line>
+      <line>等待2s</line>
+      <line>如果存在正式#然后#点击正式</line>
+      <line>点击全部类型</line>
+      <line>存在手机号测试登录</line>
+      <line/>
+      <line>// 6 删除学生（15669938143）</line>
+      <line>打开#http://admin.geek.163.com/admin.htm#/operator/stuManage/list</line>
+      <line>等待2s</line>
+      <line>在请输入期次ID搜索查询输入框中输入#400000003522074</line>
+      <line>回车</line>
+      <line>存在15669938143</line>
+      <line>点击15669938143右侧元素</line>
+      <line>存在确定在本期次内删除该学生吗</line>
+      <line>点击取消左侧元素</line>
+      <line>不存在15669938143</line>
+      <line>打开#http://teach.geek.163.com/terms/400000003522074#/studentEnroll</line>
+      <line>等待2s</line>
+      <line>如果存在正式#然后#点击正式</line>
+      <line>点击全部类型</line>
+      <line>不存在15669938143</line>
+      <line/>
+      <line/>
+      <line/>
+      <line/>
+    </test>
+    <test id="期次属性.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\期次属性.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+      <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
+      <line>#宏 登录-online.mtxt</line>
+      <line>//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )</line>
+      <line>//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;</line>
+      <line>//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用</line>
+      <line>//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;</line>
+      <line>//宏文件内部 eg：在账号输入框输入$[1]</line>
+      <line>//                           在密码输入框输入$[2]</line>
+      <line>清除cookie</line>
+      <line>//线上-UI自动化测试机构</line>
+      <line>打开#http://teach.geek.163.com/400000000672064.htm</line>
+      <line>//测试环境-UI自动化测试机构</line>
+      <line>//打开#http://teach.geek.163.com/400000001381002.htm</line>
+      <line>最大化浏览器窗口</line>
+      <line>点击邮箱登录</line>
+      <line>点击请输入邮箱帐号输入框</line>
+      <line>在输入邮箱帐号输入框输入#xdfqa7@163.com</line>
+      <line>在密码输入框输入#qa1234</line>
+      <line>点击登 录</line>
+      <line>//进入teachUI自动化测试课程-公告</line>
+      <line>打开#http://teach.geek.163.com/terms/400000003522074#/property</line>
+      <line>等待2s</line>
+      <line>存在是否有实体试卷</line>
+      <line>点击保存并发布并存在提示保存成功</line>
+    </test>
+    <test id="课程团队.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\课程团队.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+      <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
+      <line>#宏 登录-online.mtxt</line>
+      <line>//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )</line>
+      <line>//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;</line>
+      <line>//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用</line>
+      <line>//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;</line>
+      <line>//宏文件内部 eg：在账号输入框输入$[1]</line>
+      <line>//                           在密码输入框输入$[2]</line>
+      <line>清除cookie</line>
+      <line>//线上-UI自动化测试机构</line>
+      <line>打开#http://teach.geek.163.com/400000000672064.htm</line>
+      <line>//测试环境-UI自动化测试机构</line>
+      <line>//打开#http://teach.geek.163.com/400000001381002.htm</line>
+      <line>最大化浏览器窗口</line>
+      <line>点击邮箱登录</line>
+      <line>点击请输入邮箱帐号输入框</line>
+      <line>在输入邮箱帐号输入框输入#xdfqa7@163.com</line>
+      <line>在密码输入框输入#qa1234</line>
+      <line>点击登 录</line>
+      <line>//进入teachUI自动化测试课程-公告</line>
+      <line>打开#http://teach.geek.163.com/terms/400000003522074#/teachTeam</line>
+      <line>等待2s</line>
+      <line/>
+      <line>// 1 替换教学负责人（xdfqa7换xdfqa7）</line>
+      <line>存在讲师</line>
+      <line>点击替换</line>
+      <line>在请输入邮箱账号、手机号或ID查找输入框输入#xdfqa7@163.com</line>
+      <line>回车</line>
+      <line>存在1144028596</line>
+      <line>点击确认添加</line>
+      <line>存在您已添加该员工为教学负责人</line>
+      <line>点击确定</line>
+      <line/>
+      <line>// 2 替换教学负责人（zklqa1）</line>
+      <line>存在讲师</line>
+      <line>点击替换</line>
+      <line>在请输入邮箱账号、手机号或ID查找输入框输入#zklqa1@163.com</line>
+      <line>回车</line>
+      <line>存在1019294259</line>
+      <line>点击确认添加</line>
+      <line>不存在xdfqa7勿动</line>
+      <line>存在zklqa1勿动</line>
+      <line/>
+      <line>// 3 替换教学负责人（xdfqa7替换zklqa1）</line>
+      <line>存在讲师</line>
+      <line>点击替换</line>
+      <line>在请输入邮箱账号、手机号或ID查找输入框输入#xdfqa7@163.com</line>
+      <line>回车</line>
+      <line>存在1144028596</line>
+      <line>点击确认添加</line>
+      <line>存在xdfqa7勿动</line>
+      <line/>
+      <line/>
+      <line>// 3 添加讲师（zklqa2）</line>
+      <line>//存在讲师</line>
+      <line>//点击添加讲师</line>
+      <line>//在请输入邮箱账号、手机号或ID查找输入框输入#zklqa2@163.com</line>
+      <line>//回车</line>
+      <line>//存在1144928299</line>
+      <line>//点击确认添加</line>
+      <line>//存在zklqa2勿动</line>
+      <line/>
+      <line>// 4 删除讲师（zklqa2）</line>
+      <line>//hoverzklqa2勿动</line>
+      <line>//点击删除</line>
+      <line>//存在确定要删除吗</line>
+      <line>//点击确定</line>
+      <line>//不存在zklqa2勿动</line>
+      <line/>
+      <line/>
+    </test>
   </group>
 </suite>
