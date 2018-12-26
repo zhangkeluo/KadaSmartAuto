@@ -5,7 +5,7 @@
 等待2s
 
 hover添加作业
-点击Scratch作业
+点击Scratch
 在填写Scratch作业标题输入框输入#Scratch作业1
 点击保存
 等待2s
