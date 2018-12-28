@@ -1,5 +1,5 @@
 //请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ 
-//#宏 登录-online.mtxt
+#宏 登录-online.mtxt
 //进入teachUI自动化测试课程-作业
 打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/
 等待2s
