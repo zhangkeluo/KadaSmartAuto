@@ -1,3 +1,0 @@
-/chromedevd
-/logs
-/test-output
