@@ -1,304 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="case 220181226_193142.xml" duration-ms="502881" started-at="2018-12-26T11:31:43Z" finished-at="2018-12-26T11:40:06Z">
+  <suite name="case 220190107_202333.xml" duration-ms="463433" started-at="2019-01-07T12:23:35Z" finished-at="2019-01-07T12:31:18Z">
     <groups>
-      <group name="创建多媒体作业草稿&amp;删除.txt1545823903164">
-        <method signature="Runner16.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner16@4d1c005e]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner16"/>
-      </group> <!-- 创建多媒体作业草稿&删除.txt1545823903164 -->
-      <group name="scratch有初始作业退回.txt1545823903162">
-        <method signature="Runner4.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner4@3a7442c7]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner4"/>
-      </group> <!-- scratch有初始作业退回.txt1545823903162 -->
-      <group name="创建阶段测试草稿&amp;删除1.txt1545823903164">
-        <method signature="Runner17.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner17@8462f31]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner17"/>
-      </group> <!-- 创建阶段测试草稿&删除1.txt1545823903164 -->
-      <group name="多媒体作业点评.txt1545823903162">
-        <method signature="Runner5.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner5@4be29ed9]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner5"/>
-      </group> <!-- 多媒体作业点评.txt1545823903162 -->
-      <group name="我相关的期次.txt1545823903162">
-        <method signature="Runner0.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner0@795509d9]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner0"/>
-      </group> <!-- 我相关的期次.txt1545823903162 -->
-      <group name="scratch有初始作业点评.txt1545823903162">
-        <method signature="Runner3.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner3@6bbe85a8]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner3"/>
-      </group> <!-- scratch有初始作业点评.txt1545823903162 -->
-      <group name="阶段测试诊断报告.txt1545823903162">
-        <method signature="Runner7.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner7@4b013c76]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner7"/>
-      </group> <!-- 阶段测试诊断报告.txt1545823903162 -->
-      <group name="scratch无初始作业点评.txt1545823903162">
-        <method signature="Runner1.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner1@53045c6c]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner1"/>
-      </group> <!-- scratch无初始作业点评.txt1545823903162 -->
-      <group name="学生管理.txt1545823903163">
-        <method signature="Runner11.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner11@1caa0244]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner11"/>
-      </group> <!-- 学生管理.txt1545823903163 -->
-      <group name="价格设置.txt1545823903163">
-        <method signature="Runner9.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner9@14028087]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner9"/>
-      </group> <!-- 价格设置.txt1545823903163 -->
-      <group name="期次介绍页.txt1545823903163">
-        <method signature="Runner8.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner8@5386659f]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner8"/>
-      </group> <!-- 期次介绍页.txt1545823903163 -->
-      <group name="scratch无初始作业退回作业.txt1545823903162">
-        <method signature="Runner2.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner2@5149d738]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner2"/>
-      </group> <!-- scratch无初始作业退回作业.txt1545823903162 -->
-      <group name="公告.txt1545823903163">
-        <method signature="Runner10.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner10@cecf639]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner10"/>
-      </group> <!-- 公告.txt1545823903163 -->
-      <group name="阶段测试批改.txt1545823903162">
-        <method signature="Runner6.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner6@548d708a]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner6"/>
-      </group> <!-- 阶段测试批改.txt1545823903162 -->
-      <group name="设备3">
-        <method signature="Runner15.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner15@3e08ff24]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner15"/>
-        <method signature="Runner16.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner16@4d1c005e]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner16"/>
-        <method signature="Runner17.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner17@8462f31]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner17"/>
-      </group> <!-- 设备3 -->
+      <group name="我相关的期次.txt1546863815201">
+        <method signature="Runner0.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner0@663c9e7a]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner0"/>
+      </group> <!-- 我相关的期次.txt1546863815201 -->
+      <group name="scratch有初始作业点评.txt1546863815201">
+        <method signature="Runner3.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner3@53045c6c]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner3"/>
+      </group> <!-- scratch有初始作业点评.txt1546863815201 -->
+      <group name="scratch无初始作业退回作业.txt1546863815201">
+        <method signature="Runner2.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner2@795509d9]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner2"/>
+      </group> <!-- scratch无初始作业退回作业.txt1546863815201 -->
+      <group name="公告.txt1546863815202">
+        <method signature="Runner10.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner10@5386659f]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner10"/>
+      </group> <!-- 公告.txt1546863815202 -->
+      <group name="期次介绍页.txt1546863815202">
+        <method signature="Runner8.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner8@2767e23c]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner8"/>
+      </group> <!-- 期次介绍页.txt1546863815202 -->
+      <group name="价格设置.txt1546863815202">
+        <method signature="Runner9.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner9@710c2b53]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner9"/>
+      </group> <!-- 价格设置.txt1546863815202 -->
+      <group name="阶段测试诊断报告.txt1546863815201">
+        <method signature="Runner7.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner7@4be29ed9]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner7"/>
+      </group> <!-- 阶段测试诊断报告.txt1546863815201 -->
+      <group name="阶段测试批改.txt1546863815201">
+        <method signature="Runner6.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner6@3a7442c7]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner6"/>
+      </group> <!-- 阶段测试批改.txt1546863815201 -->
+      <group name="期次属性.txt1546863815202">
+        <method signature="Runner12.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner12@cecf639]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner12"/>
+      </group> <!-- 期次属性.txt1546863815202 -->
+      <group name="课程团队.txt1546863815202">
+        <method signature="Runner14.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner14@7ce026d3]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner14"/>
+      </group> <!-- 课程团队.txt1546863815202 -->
+      <group name="scratch无初始作业点评.txt1546863815201">
+        <method signature="Runner1.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner1@19e4653c]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner1"/>
+      </group> <!-- scratch无初始作业点评.txt1546863815201 -->
+      <group name="版权及可见性.txt1546863815202">
+        <method signature="Runner13.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner13@1caa0244]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner13"/>
+      </group> <!-- 版权及可见性.txt1546863815202 -->
+      <group name="学生管理.txt1546863815202">
+        <method signature="Runner11.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner11@14028087]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner11"/>
+      </group> <!-- 学生管理.txt1546863815202 -->
+      <group name="scratch有初始作业退回.txt1546863815201">
+        <method signature="Runner4.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner4@5149d738]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner4"/>
+      </group> <!-- scratch有初始作业退回.txt1546863815201 -->
       <group name="设备2">
-        <method signature="Runner8.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner8@5386659f]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner8"/>
-        <method signature="Runner10.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner10@cecf639]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner10"/>
-        <method signature="Runner11.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner11@1caa0244]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner11"/>
-        <method signature="Runner12.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner12@7ce026d3]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner12"/>
-        <method signature="Runner13.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner13@7ce69770]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner13"/>
-        <method signature="Runner14.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner14@1750fbeb]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner14"/>
-        <method signature="Runner9.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner9@14028087]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner9"/>
+        <method signature="Runner8.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner8@2767e23c]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner8"/>
+        <method signature="Runner10.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner10@5386659f]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner10"/>
+        <method signature="Runner11.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner11@14028087]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner11"/>
+        <method signature="Runner12.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner12@cecf639]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner12"/>
+        <method signature="Runner13.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner13@1caa0244]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner13"/>
+        <method signature="Runner14.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner14@7ce026d3]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner14"/>
+        <method signature="Runner9.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner9@710c2b53]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner9"/>
       </group> <!-- 设备2 -->
-      <group name="版权及可见性.txt1545823903163">
-        <method signature="Runner13.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner13@7ce69770]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner13"/>
-      </group> <!-- 版权及可见性.txt1545823903163 -->
       <group name="设备1">
-        <method signature="Runner0.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner0@795509d9]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner0"/>
-        <method signature="Runner1.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner1@53045c6c]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner1"/>
-        <method signature="Runner2.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner2@5149d738]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner2"/>
-        <method signature="Runner3.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner3@6bbe85a8]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner3"/>
-        <method signature="Runner4.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner4@3a7442c7]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner4"/>
-        <method signature="Runner5.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner5@4be29ed9]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner5"/>
-        <method signature="Runner6.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner6@548d708a]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner6"/>
-        <method signature="Runner7.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner7@4b013c76]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner7"/>
+        <method signature="Runner0.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner0@663c9e7a]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner0"/>
+        <method signature="Runner1.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner1@19e4653c]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner1"/>
+        <method signature="Runner2.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner2@795509d9]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner2"/>
+        <method signature="Runner3.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner3@53045c6c]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner3"/>
+        <method signature="Runner4.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner4@5149d738]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner4"/>
+        <method signature="Runner5.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner5@6bbe85a8]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner5"/>
+        <method signature="Runner6.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner6@3a7442c7]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner6"/>
+        <method signature="Runner7.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner7@4be29ed9]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner7"/>
       </group> <!-- 设备1 -->
-      <group name="期次属性.txt1545823903163">
-        <method signature="Runner12.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner12@7ce026d3]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner12"/>
-      </group> <!-- 期次属性.txt1545823903163 -->
-      <group name="课程团队.txt1545823903163">
-        <method signature="Runner14.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner14@1750fbeb]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner14"/>
-      </group> <!-- 课程团队.txt1545823903163 -->
-      <group name="创建scratch草稿&amp;删除.txt1545823903164">
-        <method signature="Runner15.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner15@3e08ff24]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner15"/>
-      </group> <!-- 创建scratch草稿&删除.txt1545823903164 -->
+      <group name="多媒体作业点评.txt1546863815201">
+        <method signature="Runner5.runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner5@6bbe85a8]" name="runCase" class="com.netease.qa.ai.smartauto.runners.Runner5"/>
+      </group> <!-- 多媒体作业点评.txt1546863815201 -->
     </groups>
-    <test name="_设备3_" duration-ms="126385" started-at="2018-12-26T11:31:43Z" finished-at="2018-12-26T11:33:49Z">
-      <class name="com.netease.qa.ai.smartauto.runners.Runner17">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner17@8462f31]" name="runCase" duration-ms="24089" started-at="2018-12-26T11:33:25Z" finished-at="2018-12-26T11:33:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5769]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[创建阶段测试草稿&删除1.txt1545823903164]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[设备3]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[{"switch":false,"package":""}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCase -->
-      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner17 -->
-      <class name="com.netease.qa.ai.smartauto.runners.Runner16">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner16@4d1c005e]" name="runCase" duration-ms="39286" started-at="2018-12-26T11:32:46Z" finished-at="2018-12-26T11:33:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5769]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[创建多媒体作业草稿&删除.txt1545823903164]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[设备3]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击多媒体~SALS~在填写多媒体作业标题输入框输入#多媒体作业1~SALS~点击保存~SALS~//输入多媒体作业内容~SALS~在答案类型上侧元素输入#这是多媒体作业1题目：1+1等于几~SALS~上滑直至出现保存题目~SALS~点击文本答案~SALS~点击照片答案~SALS~点击视频答案~SALS~点击添加得分点~SALS~存在想象创造~SALS~上滑直至出现保存题目~SALS~点击保存题目~SALS~存在多媒体作业1~SALS~//删除创建的多媒体作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在多媒体作业1#然后#点击未关联章节练习左侧元素~SALS~存在多媒体作业1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在多媒体作业1~SALS~存在添加作业]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[{"switch":false,"package":""}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCase -->
-      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner16 -->
-      <class name="com.netease.qa.ai.smartauto.runners.Runner15">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner15@3e08ff24]" name="runCase" duration-ms="62964" started-at="2018-12-26T11:31:43Z" finished-at="2018-12-26T11:32:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5769]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[创建scratch草稿&删除.txt1545823903164]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[设备3]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 <参数1> <参数2>~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt <test@163.com> <testpassword>~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~最大化浏览器窗口~SALS~点击邮箱登录~SALS~在邮箱登录下侧元素输入#xdfqa7@163.com~SALS~//在输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~在密码输入框输入#qa1234~SALS~点击登 录~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击Scratch~SALS~在填写Scratch作业标题输入框输入#Scratch作业1~SALS~点击保存~SALS~等待2s~SALS~//输入scratch作业内容~SALS~在第一个得分点上侧元素输入#这是scratch作业1题目1+1等于几~SALS~上滑直至出现保存题目~SALS~点击推荐Scratch 2.0~SALS~点击无初始作品~SALS~点击保存题目~SALS~点击设置发布信息~SALS~//删除创建的scratch作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~点击未关联章节练习左侧元素~SALS~存在Scratch作业1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在Scratch作业1~SALS~存在添加作业]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[{"switch":false,"package":""}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCase -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner15@3e08ff24]" name="unregisterDevice" is-config="true" duration-ms="10" started-at="2018-12-26T11:33:49Z" finished-at="2018-12-26T11:33:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[设备3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5769]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner16@4d1c005e]" name="unregisterDevice" is-config="true" duration-ms="4" started-at="2018-12-26T11:33:49Z" finished-at="2018-12-26T11:33:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[设备3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5769]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner17@8462f31]" name="unregisterDevice" is-config="true" duration-ms="2" started-at="2018-12-26T11:33:49Z" finished-at="2018-12-26T11:33:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[设备3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5769]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- unregisterDevice -->
-      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner15 -->
-    </test> <!-- _设备3_ -->
-    <test name="_设备2_" duration-ms="315644" started-at="2018-12-26T11:31:43Z" finished-at="2018-12-26T11:36:59Z">
+    <test name="_设备2_" duration-ms="284062" started-at="2019-01-07T12:23:35Z" finished-at="2019-01-07T12:28:19Z">
       <class name="com.netease.qa.ai.smartauto.runners.Runner14">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner14@1750fbeb]" name="runCase" duration-ms="34453" depends-on-groups="期次介绍页.txt1545823903163" started-at="2018-12-26T11:36:24Z" finished-at="2018-12-26T11:36:59Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner14@7ce026d3]" name="runCase" duration-ms="33845" depends-on-groups="期次介绍页.txt1546863815202" started-at="2019-01-07T12:27:45Z" finished-at="2019-01-07T12:28:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -308,7 +85,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[课程团队.txt1545823903163]]>
+                <![CDATA[课程团队.txt1546863815202]]>
               </value>
             </param>
             <param index="3">
@@ -318,7 +95,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[期次介绍页.txt1545823903163]]>
+                <![CDATA[期次介绍页.txt1546863815202]]>
               </value>
             </param>
             <param index="5">
@@ -342,11 +119,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner14 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner13">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner13@7ce69770]" name="runCase" duration-ms="31602" depends-on-groups="期次介绍页.txt1545823903163" started-at="2018-12-26T11:35:52Z" finished-at="2018-12-26T11:36:24Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner13@1caa0244]" name="runCase" duration-ms="27789" depends-on-groups="期次介绍页.txt1546863815202" started-at="2019-01-07T12:27:17Z" finished-at="2019-01-07T12:27:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -356,7 +133,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[版权及可见性.txt1545823903163]]>
+                <![CDATA[版权及可见性.txt1546863815202]]>
               </value>
             </param>
             <param index="3">
@@ -366,7 +143,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[期次介绍页.txt1545823903163]]>
+                <![CDATA[期次介绍页.txt1546863815202]]>
               </value>
             </param>
             <param index="5">
@@ -389,60 +166,12 @@
           </reporter-output>
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner13 -->
-      <class name="com.netease.qa.ai.smartauto.runners.Runner9">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner9@14028087]" name="runCase" duration-ms="27756" depends-on-groups="期次介绍页.txt1545823903163" started-at="2018-12-26T11:32:35Z" finished-at="2018-12-26T11:33:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5769]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[价格设置.txt1545823903163]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[设备2]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[期次介绍页.txt1545823903163]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-公告~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/price~SALS~等待2s~SALS~// 1 原价输入 100000  100.001~SALS~在原价右侧元素输入#100000~SALS~点击保存并发布~SALS~存在请输入正确的阿拉伯数字~SALS~在原价右侧元素输入#100.001~SALS~点击保存并发布~SALS~存在请输入正确的阿拉伯数字~SALS~在原价右侧元素输入#100~SALS~// 2 现价输入 100000  100.001~SALS~在收费右侧元素输入#100000~SALS~点击保存并发布~SALS~存在请输入正确的阿拉伯数字~SALS~在收费右侧元素输入#100.001~SALS~点击保存并发布~SALS~存在请输入正确的阿拉伯数字~SALS~// 3 现价输入101~SALS~在收费右侧元素输入#101~SALS~点击保存并发布~SALS~存在原价需高于现价~SALS~存在现价需低于原价~SALS~在收费右侧元素输入#0.01~SALS~点击保存并发布并存在提示保存成功]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[{"switch":false,"package":""}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCase -->
-      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner9 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner12">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner12@7ce026d3]" name="runCase" duration-ms="7066" depends-on-groups="期次介绍页.txt1545823903163" started-at="2018-12-26T11:35:45Z" finished-at="2018-12-26T11:35:52Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner12@cecf639]" name="runCase" duration-ms="5879" depends-on-groups="期次介绍页.txt1546863815202" started-at="2019-01-07T12:27:11Z" finished-at="2019-01-07T12:27:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -452,7 +181,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[期次属性.txt1545823903163]]>
+                <![CDATA[期次属性.txt1546863815202]]>
               </value>
             </param>
             <param index="3">
@@ -462,7 +191,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[期次介绍页.txt1545823903163]]>
+                <![CDATA[期次介绍页.txt1546863815202]]>
               </value>
             </param>
             <param index="5">
@@ -485,12 +214,12 @@
           </reporter-output>
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner12 -->
-      <class name="com.netease.qa.ai.smartauto.runners.Runner11">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner11@1caa0244]" name="runCase" duration-ms="134344" depends-on-groups="期次介绍页.txt1545823903163" started-at="2018-12-26T11:33:31Z" finished-at="2018-12-26T11:35:45Z">
+      <class name="com.netease.qa.ai.smartauto.runners.Runner9">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner9@710c2b53]" name="runCase" duration-ms="25032" depends-on-groups="期次介绍页.txt1546863815202" started-at="2019-01-07T12:24:16Z" finished-at="2019-01-07T12:24:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -500,7 +229,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[学生管理.txt1545823903163]]>
+                <![CDATA[价格设置.txt1546863815202]]>
               </value>
             </param>
             <param index="3">
@@ -510,7 +239,55 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[期次介绍页.txt1545823903163]]>
+                <![CDATA[期次介绍页.txt1546863815202]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-公告~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/price~SALS~等待2s~SALS~// 1 原价输入 100000  100.001~SALS~在原价右侧元素输入#100000~SALS~点击保存并发布~SALS~存在请输入正确的阿拉伯数字~SALS~在原价右侧元素输入#100.001~SALS~点击保存并发布~SALS~存在请输入正确的阿拉伯数字~SALS~在原价右侧元素输入#100~SALS~// 2 现价输入 100000  100.001~SALS~在收费右侧元素输入#100000~SALS~点击保存并发布~SALS~存在请输入正确的阿拉伯数字~SALS~在收费右侧元素输入#100.001~SALS~点击保存并发布~SALS~存在请输入正确的阿拉伯数字~SALS~// 3 现价输入101~SALS~在收费右侧元素输入#101~SALS~点击保存并发布~SALS~存在原价需高于现价~SALS~存在现价需低于原价~SALS~在收费右侧元素输入#0.01~SALS~点击保存并发布并存在提示保存成功]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[{"switch":false,"package":""}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCase -->
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner9 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner11">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner11@14028087]" name="runCase" duration-ms="127256" depends-on-groups="期次介绍页.txt1546863815202" started-at="2019-01-07T12:25:04Z" finished-at="2019-01-07T12:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6428]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[学生管理.txt1546863815202]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[设备2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[期次介绍页.txt1546863815202]]>
               </value>
             </param>
             <param index="5">
@@ -534,11 +311,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner11 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner10">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner10@cecf639]" name="runCase" duration-ms="28293" depends-on-groups="期次介绍页.txt1545823903163" started-at="2018-12-26T11:33:03Z" finished-at="2018-12-26T11:33:31Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner10@5386659f]" name="runCase" duration-ms="23017" depends-on-groups="期次介绍页.txt1546863815202" started-at="2019-01-07T12:24:41Z" finished-at="2019-01-07T12:25:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -548,7 +325,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[公告.txt1545823903163]]>
+                <![CDATA[公告.txt1546863815202]]>
               </value>
             </param>
             <param index="3">
@@ -558,7 +335,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[期次介绍页.txt1545823903163]]>
+                <![CDATA[期次介绍页.txt1546863815202]]>
               </value>
             </param>
             <param index="5">
@@ -582,11 +359,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner10 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner8">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner8@5386659f]" name="runCase" duration-ms="52065" started-at="2018-12-26T11:31:43Z" finished-at="2018-12-26T11:32:35Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner8@2767e23c]" name="runCase" duration-ms="41176" started-at="2019-01-07T12:23:35Z" finished-at="2019-01-07T12:24:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -596,7 +373,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[期次介绍页.txt1545823903163]]>
+                <![CDATA[期次介绍页.txt1546863815202]]>
               </value>
             </param>
             <param index="3">
@@ -628,7 +405,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCase -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner8@5386659f]" name="unregisterDevice" is-config="true" duration-ms="7" started-at="2018-12-26T11:36:59Z" finished-at="2018-12-26T11:36:59Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner8@2767e23c]" name="unregisterDevice" is-config="true" duration-ms="8" started-at="2019-01-07T12:28:19Z" finished-at="2019-01-07T12:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -637,7 +414,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -649,7 +426,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner11@1caa0244]" name="unregisterDevice" is-config="true" duration-ms="4" started-at="2018-12-26T11:36:59Z" finished-at="2018-12-26T11:36:59Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner11@14028087]" name="unregisterDevice" is-config="true" duration-ms="3" started-at="2019-01-07T12:28:19Z" finished-at="2019-01-07T12:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -658,7 +435,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -670,7 +447,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner14@1750fbeb]" name="unregisterDevice" is-config="true" duration-ms="7" started-at="2018-12-26T11:36:59Z" finished-at="2018-12-26T11:36:59Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner14@7ce026d3]" name="unregisterDevice" is-config="true" duration-ms="3" started-at="2019-01-07T12:28:19Z" finished-at="2019-01-07T12:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -679,7 +456,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -691,7 +468,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner9@14028087]" name="unregisterDevice" is-config="true" duration-ms="6" started-at="2018-12-26T11:36:59Z" finished-at="2018-12-26T11:36:59Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner9@710c2b53]" name="unregisterDevice" is-config="true" duration-ms="8" started-at="2019-01-07T12:28:19Z" finished-at="2019-01-07T12:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -700,7 +477,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -712,7 +489,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner12@7ce026d3]" name="unregisterDevice" is-config="true" duration-ms="2" started-at="2018-12-26T11:36:59Z" finished-at="2018-12-26T11:36:59Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner12@cecf639]" name="unregisterDevice" is-config="true" duration-ms="10" started-at="2019-01-07T12:28:19Z" finished-at="2019-01-07T12:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -721,7 +498,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -733,7 +510,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner13@7ce69770]" name="unregisterDevice" is-config="true" duration-ms="7" started-at="2018-12-26T11:36:59Z" finished-at="2018-12-26T11:36:59Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner13@1caa0244]" name="unregisterDevice" is-config="true" duration-ms="5" started-at="2019-01-07T12:28:19Z" finished-at="2019-01-07T12:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -742,7 +519,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -754,7 +531,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner10@cecf639]" name="unregisterDevice" is-config="true" duration-ms="1" started-at="2018-12-26T11:36:59Z" finished-at="2018-12-26T11:36:59Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner10@5386659f]" name="unregisterDevice" is-config="true" duration-ms="4" started-at="2019-01-07T12:28:19Z" finished-at="2019-01-07T12:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -763,7 +540,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -777,13 +554,13 @@
         </test-method> <!-- unregisterDevice -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner8 -->
     </test> <!-- _设备2_ -->
-    <test name="_设备1_" duration-ms="502881" started-at="2018-12-26T11:31:43Z" finished-at="2018-12-26T11:40:06Z">
+    <test name="_设备1_" duration-ms="463433" started-at="2019-01-07T12:23:35Z" finished-at="2019-01-07T12:31:18Z">
       <class name="com.netease.qa.ai.smartauto.runners.Runner0">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner0@795509d9]" name="runCase" duration-ms="48396" started-at="2018-12-26T11:31:43Z" finished-at="2018-12-26T11:32:31Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner0@663c9e7a]" name="runCase" duration-ms="42618" started-at="2019-01-07T12:23:35Z" finished-at="2019-01-07T12:24:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -793,7 +570,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[我相关的期次.txt1545823903162]]>
+                <![CDATA[我相关的期次.txt1546863815201]]>
               </value>
             </param>
             <param index="3">
@@ -827,11 +604,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner0 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner6">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner6@548d708a]" name="runCase" duration-ms="108015" depends-on-groups="我相关的期次.txt1545823903162" started-at="2018-12-26T11:37:49Z" finished-at="2018-12-26T11:39:37Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner6@3a7442c7]" name="runCase" duration-ms="111229" depends-on-groups="我相关的期次.txt1546863815201" started-at="2019-01-07T12:29:05Z" finished-at="2019-01-07T12:30:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -841,7 +618,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[阶段测试批改.txt1545823903162]]>
+                <![CDATA[阶段测试批改.txt1546863815201]]>
               </value>
             </param>
             <param index="3">
@@ -851,7 +628,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[我相关的期次.txt1545823903162]]>
+                <![CDATA[我相关的期次.txt1546863815201]]>
               </value>
             </param>
             <param index="5">
@@ -861,7 +638,7 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入批改统计页面~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/exerciseMark/view/exerciseList~SALS~等待2s~SALS~// 1 点评xdfqa7多媒体作业~SALS~点击阶段测试~SALS~存在阶段测试-UI自动化~SALS~点击诊断报告左侧元素~SALS~存在阶段测试-UI自动化~SALS~存在提交时间~SALS~存在用户备注~SALS~存在批改~SALS~点击操作下侧元素~SALS~等待2s~SALS~//第一次答题-重新评分~SALS~上滑直至出现重新评分~SALS~点击重新评分~SALS~上滑直至出现保存~SALS~在题目分值输入框中输入#2~SALS~在文本框中输入#这是第5题第一次答题评语${time}~SALS~点击保存~SALS~不存在保存~SALS~存在重新评分~SALS~//快速评分~SALS~点击5~SALS~点击快速批改~SALS~存在1144028596~SALS~点击重新评分~SALS~在题目分值输入框中输入#2~SALS~在文本框中输入#这是第5题第一次答题评语${time}~SALS~点击保存~SALS~不存在保存~SALS~存在重新评分~SALS~点击关闭~SALS~//删除第二次答题~SALS~下滑直至出现阶段测试-UI自动化~SALS~点击答题记录右侧元素~SALS~存在有效得分~SALS~存在操作~SALS~点击第一个查看~SALS~等待1s~SALS~下滑直至出现阶段测试-UI自动化~SALS~存在第2次答题~SALS~点击删除记录~SALS~存在确定删除此条答题记录吗~SALS~点击确定删除~SALS~等待1s~SALS~存在用户备注~SALS~存在阶段测试批改~SALS~存在提交时间~SALS~//重新提交一次答题~SALS~打开#https://geek.163.com/path/courses/400000003522074/learning~SALS~等待2s~SALS~点击答题记录右侧元素~SALS~存在前往作答~SALS~存在依照学术诚信原则，我保证本试卷是本人独立完成的、~SALS~点击前往作答~SALS~等待2s~SALS~存在保存草稿~SALS~存在提交阶段测验~SALS~点击袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒下侧元素~SALS~点击下面各数如果除以4，有余数的是下侧元素~SALS~点击提交阶段测验~SALS~存在以下题目未完成~SALS~点击继续答题右侧元素并存在提示提交成功~SALS~等待2s~SALS~存在阶段测验只展示错题~SALS~关闭当前窗口]]>
+                <![CDATA[// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助>API文档“ ~SALS~#宏 登录-online.mtxt~SALS~//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )~SALS~//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 <参数1> <参数2>~SALS~//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用~SALS~//外部调用宏 eg：#宏 登录.mtxt <test@163.com> <testpassword>~SALS~//宏文件内部 eg：在账号输入框输入$[1]~SALS~//                           在密码输入框输入$[2]~SALS~清除cookie~SALS~//线上-UI自动化测试机构~SALS~打开#http://teach.geek.163.com/400000000672064.htm~SALS~//测试环境-UI自动化测试机构~SALS~//打开#http://teach.geek.163.com/400000001381002.htm~SALS~最大化浏览器窗口~SALS~点击邮箱登录~SALS~在邮箱登录下侧元素输入#xdfqa7@163.com~SALS~//在输入邮箱帐号输入框输入#xdfqa7@163.com~SALS~在密码输入框输入#qa1234~SALS~点击登 录~SALS~//进入批改统计页面~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/exerciseMark/view/exerciseList~SALS~等待2s~SALS~// 1 点评xdfqa7多媒体作业~SALS~点击阶段测试~SALS~存在阶段测试-UI自动化~SALS~点击诊断报告左侧元素~SALS~存在阶段测试-UI自动化~SALS~存在提交时间~SALS~存在用户备注~SALS~存在批改~SALS~点击操作下侧元素~SALS~等待2s~SALS~//第一次答题-重新评分~SALS~上滑直至出现重新评分~SALS~点击重新评分~SALS~上滑直至出现保存~SALS~在题目分值输入框中输入#2~SALS~在文本框中输入#这是第5题第一次答题评语${time}~SALS~点击保存~SALS~不存在保存~SALS~存在重新评分~SALS~//快速评分~SALS~点击5~SALS~点击快速批改~SALS~存在1144028596~SALS~点击重新评分~SALS~在题目分值输入框中输入#2~SALS~在文本框中输入#这是第5题第一次答题评语${time}~SALS~点击保存~SALS~不存在保存~SALS~存在重新评分~SALS~点击关闭~SALS~//删除第二次答题~SALS~下滑直至出现阶段测试-UI自动化~SALS~点击答题记录右侧元素~SALS~存在有效得分~SALS~存在操作~SALS~点击第一个查看~SALS~等待1s~SALS~下滑直至出现阶段测试-UI自动化~SALS~存在第2次答题~SALS~点击删除记录~SALS~存在确定删除此条答题记录吗~SALS~点击确定删除~SALS~等待1s~SALS~存在用户备注~SALS~存在阶段测试批改~SALS~存在提交时间~SALS~//重新提交一次答题~SALS~打开#https://geek.163.com/path/courses/400000003522074/learning~SALS~等待2s~SALS~点击答题记录右侧元素~SALS~存在前往作答~SALS~存在依照学术诚信原则，我保证本试卷是本人独立完成的、~SALS~点击前往作答~SALS~等待2s~SALS~存在保存草稿~SALS~存在提交阶段测验~SALS~点击袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒下侧元素~SALS~点击下面各数如果除以4，有余数的是下侧元素~SALS~点击提交阶段测验~SALS~存在以下题目未完成~SALS~点击继续答题右侧元素并存在提示提交成功~SALS~等待2s~SALS~存在阶段测验只展示错题~SALS~关闭当前窗口]]>
               </value>
             </param>
             <param index="7">
@@ -875,11 +652,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner6 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner5">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner5@4be29ed9]" name="runCase" duration-ms="49074" depends-on-groups="我相关的期次.txt1545823903162" started-at="2018-12-26T11:37:00Z" finished-at="2018-12-26T11:37:49Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner5@6bbe85a8]" name="runCase" duration-ms="47003" depends-on-groups="我相关的期次.txt1546863815201" started-at="2019-01-07T12:28:18Z" finished-at="2019-01-07T12:29:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -889,7 +666,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[多媒体作业点评.txt1545823903162]]>
+                <![CDATA[多媒体作业点评.txt1546863815201]]>
               </value>
             </param>
             <param index="3">
@@ -899,7 +676,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[我相关的期次.txt1545823903162]]>
+                <![CDATA[我相关的期次.txt1546863815201]]>
               </value>
             </param>
             <param index="5">
@@ -921,7 +698,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCase -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner5@4be29ed9]" name="unregisterDevice" is-config="true" duration-ms="7" started-at="2018-12-26T11:40:06Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner5@6bbe85a8]" name="unregisterDevice" is-config="true" duration-ms="4" started-at="2019-01-07T12:31:18Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -930,7 +707,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -942,7 +719,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner2@5149d738]" name="unregisterDevice" is-config="true" duration-ms="6" started-at="2018-12-26T11:40:06Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner2@795509d9]" name="unregisterDevice" is-config="true" duration-ms="10" started-at="2019-01-07T12:31:18Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -951,7 +728,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -963,7 +740,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner7@4b013c76]" name="unregisterDevice" is-config="true" duration-ms="1" started-at="2018-12-26T11:40:06Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner7@4be29ed9]" name="unregisterDevice" is-config="true" duration-ms="4" started-at="2019-01-07T12:31:18Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -972,7 +749,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -984,7 +761,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner4@3a7442c7]" name="unregisterDevice" is-config="true" duration-ms="7" started-at="2018-12-26T11:40:06Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner4@5149d738]" name="unregisterDevice" is-config="true" duration-ms="9" started-at="2019-01-07T12:31:18Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -993,7 +770,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -1005,7 +782,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner1@53045c6c]" name="unregisterDevice" is-config="true" duration-ms="3" started-at="2018-12-26T11:40:06Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner1@19e4653c]" name="unregisterDevice" is-config="true" duration-ms="4" started-at="2019-01-07T12:31:18Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -1014,7 +791,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -1026,7 +803,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner3@6bbe85a8]" name="unregisterDevice" is-config="true" duration-ms="2" started-at="2018-12-26T11:40:06Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner3@53045c6c]" name="unregisterDevice" is-config="true" duration-ms="10" started-at="2019-01-07T12:31:18Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -1035,7 +812,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -1047,7 +824,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner0@795509d9]" name="unregisterDevice" is-config="true" duration-ms="9" started-at="2018-12-26T11:40:06Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner0@663c9e7a]" name="unregisterDevice" is-config="true" duration-ms="2" started-at="2019-01-07T12:31:18Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -1056,7 +833,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -1068,7 +845,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unregisterDevice -->
-        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner6@548d708a]" name="unregisterDevice" is-config="true" duration-ms="4" started-at="2018-12-26T11:40:06Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="unregisterDevice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner6@3a7442c7]" name="unregisterDevice" is-config="true" duration-ms="2" started-at="2019-01-07T12:31:18Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
@@ -1077,7 +854,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="2">
@@ -1091,11 +868,11 @@
         </test-method> <!-- unregisterDevice -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner5 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner7">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner7@4b013c76]" name="runCase" duration-ms="28548" depends-on-groups="我相关的期次.txt1545823903162" started-at="2018-12-26T11:39:37Z" finished-at="2018-12-26T11:40:06Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner7@4be29ed9]" name="runCase" duration-ms="22442" depends-on-groups="我相关的期次.txt1546863815201" started-at="2019-01-07T12:30:56Z" finished-at="2019-01-07T12:31:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -1105,7 +882,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[阶段测试诊断报告.txt1545823903162]]>
+                <![CDATA[阶段测试诊断报告.txt1546863815201]]>
               </value>
             </param>
             <param index="3">
@@ -1115,7 +892,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[我相关的期次.txt1545823903162]]>
+                <![CDATA[我相关的期次.txt1546863815201]]>
               </value>
             </param>
             <param index="5">
@@ -1139,11 +916,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner7 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner2">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner2@5149d738]" name="runCase" duration-ms="82839" depends-on-groups="我相关的期次.txt1545823903162" started-at="2018-12-26T11:33:21Z" finished-at="2018-12-26T11:34:44Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner2@795509d9]" name="runCase" duration-ms="76582" depends-on-groups="我相关的期次.txt1546863815201" started-at="2019-01-07T12:25:02Z" finished-at="2019-01-07T12:26:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -1153,7 +930,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[scratch无初始作业退回作业.txt1545823903162]]>
+                <![CDATA[scratch无初始作业退回作业.txt1546863815201]]>
               </value>
             </param>
             <param index="3">
@@ -1163,7 +940,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[我相关的期次.txt1545823903162]]>
+                <![CDATA[我相关的期次.txt1546863815201]]>
               </value>
             </param>
             <param index="5">
@@ -1187,11 +964,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner2 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner1">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner1@53045c6c]" name="runCase" duration-ms="49602" depends-on-groups="我相关的期次.txt1545823903162" started-at="2018-12-26T11:32:31Z" finished-at="2018-12-26T11:33:21Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner1@19e4653c]" name="runCase" duration-ms="44711" depends-on-groups="我相关的期次.txt1546863815201" started-at="2019-01-07T12:24:18Z" finished-at="2019-01-07T12:25:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -1201,7 +978,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[scratch无初始作业点评.txt1545823903162]]>
+                <![CDATA[scratch无初始作业点评.txt1546863815201]]>
               </value>
             </param>
             <param index="3">
@@ -1211,7 +988,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[我相关的期次.txt1545823903162]]>
+                <![CDATA[我相关的期次.txt1546863815201]]>
               </value>
             </param>
             <param index="5">
@@ -1235,11 +1012,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner1 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner4">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner4@3a7442c7]" name="runCase" duration-ms="84772" depends-on-groups="我相关的期次.txt1545823903162" started-at="2018-12-26T11:35:35Z" finished-at="2018-12-26T11:37:00Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner4@5149d738]" name="runCase" duration-ms="74094" depends-on-groups="我相关的期次.txt1546863815201" started-at="2019-01-07T12:27:04Z" finished-at="2019-01-07T12:28:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -1249,7 +1026,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[scratch有初始作业退回.txt1545823903162]]>
+                <![CDATA[scratch有初始作业退回.txt1546863815201]]>
               </value>
             </param>
             <param index="3">
@@ -1259,7 +1036,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[我相关的期次.txt1545823903162]]>
+                <![CDATA[我相关的期次.txt1546863815201]]>
               </value>
             </param>
             <param index="5">
@@ -1283,11 +1060,11 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner4 -->
       <class name="com.netease.qa.ai.smartauto.runners.Runner3">
-        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner3@6bbe85a8]" name="runCase" duration-ms="51554" depends-on-groups="我相关的期次.txt1545823903162" started-at="2018-12-26T11:34:44Z" finished-at="2018-12-26T11:35:35Z">
+        <test-method status="PASS" signature="runCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.netease.qa.ai.smartauto.runners.Runner3@53045c6c]" name="runCase" duration-ms="44689" depends-on-groups="我相关的期次.txt1546863815201" started-at="2019-01-07T12:26:19Z" finished-at="2019-01-07T12:27:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5769]]>
+                <![CDATA[6428]]>
               </value>
             </param>
             <param index="1">
@@ -1297,7 +1074,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[scratch有初始作业点评.txt1545823903162]]>
+                <![CDATA[scratch有初始作业点评.txt1546863815201]]>
               </value>
             </param>
             <param index="3">
@@ -1307,7 +1084,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[我相关的期次.txt1545823903162]]>
+                <![CDATA[我相关的期次.txt1546863815201]]>
               </value>
             </param>
             <param index="5">
@@ -1331,5 +1108,5 @@
         </test-method> <!-- runCase -->
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner3 -->
     </test> <!-- _设备1_ -->
-  </suite> <!-- case 220181226_193142.xml -->
+  </suite> <!-- case 220190107_202333.xml -->
 </testng-results>

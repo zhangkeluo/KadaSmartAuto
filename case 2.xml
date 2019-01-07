@@ -309,7 +309,24 @@
     </test>
     <test id="阶段测试批改.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\批改统计\批改\阶段测试批改.txt" dependsOn="我相关的期次.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
-      <line>//#宏 登录-online.mtxt</line>
+      <line>#宏 登录-online.mtxt</line>
+      <line>//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )</line>
+      <line>//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;</line>
+      <line>//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用</line>
+      <line>//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;</line>
+      <line>//宏文件内部 eg：在账号输入框输入$[1]</line>
+      <line>//                           在密码输入框输入$[2]</line>
+      <line>清除cookie</line>
+      <line>//线上-UI自动化测试机构</line>
+      <line>打开#http://teach.geek.163.com/400000000672064.htm</line>
+      <line>//测试环境-UI自动化测试机构</line>
+      <line>//打开#http://teach.geek.163.com/400000001381002.htm</line>
+      <line>最大化浏览器窗口</line>
+      <line>点击邮箱登录</line>
+      <line>在邮箱登录下侧元素输入#xdfqa7@163.com</line>
+      <line>//在输入邮箱帐号输入框输入#xdfqa7@163.com</line>
+      <line>在密码输入框输入#qa1234</line>
+      <line>点击登 录</line>
       <line>//进入批改统计页面</line>
       <line>打开#http://teach.geek.163.com/terms/400000003522074#/exerciseMark/view/exerciseList</line>
       <line>等待2s</line>
