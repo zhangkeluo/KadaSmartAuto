@@ -1,34 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Failed suite [case 220190107_200355.xml]" parallel="tests">
-  <test thread-count="2" name="_设备1_(failed)" parallel="tests">
+<suite thread-count="2" name="Failed suite [case 220190108_144442.xml]" parallel="tests">
+  <test thread-count="2" name="_设备1_设备3_(failed)" parallel="tests">
     <classes>
       <class name="com.netease.qa.ai.smartauto.runners.Runner6">
-        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/exerciseMark/view/exerciseList~SALS~等待2s~SALS~//  诊断报告~SALS~点击阶段测试~SALS~存在阶段测试-UI自动化~SALS~点击诊断报告~SALS~存在成绩统计~SALS~存在统计图~SALS~存在题目数据统计~SALS~//简单点击三个tab~SALS~点击成绩统计~SALS~存在提交截止时间~SALS~存在提交人数~SALS~存在提交次数~SALS~点击统计图~SALS~存在统计数据更新时间~SALS~存在导出数据~SALS~不存在服务繁忙~SALS~点击题目数据统计~SALS~不存在服务繁忙"/>
-        <parameter name="suiteId" value="6425"/>
-        <parameter name="dependsOnTest" value="我相关的期次.txt1546862637026"/>
-        <parameter name="caseId" value="阶段测试诊断报告.txt1546862637026"/>
-        <parameter name="groupId" value="设备1"/>
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
         <parameter name="taskId" value="123456"/>
-        <parameter name="dependsOnGroup" value=""/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner6 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner1">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner1 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner2">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner2 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner4">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner4 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner11">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner11 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner3">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner3 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner8">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
         <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
         <methods>
           <include name="runCase" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner6 -->
-      <class name="com.netease.qa.ai.smartauto.runners.Runner0">
-        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/exerciseMark/view/exerciseList~SALS~等待2s~SALS~//  诊断报告~SALS~点击阶段测试~SALS~存在阶段测试-UI自动化~SALS~点击诊断报告~SALS~存在成绩统计~SALS~存在统计图~SALS~存在题目数据统计~SALS~//简单点击三个tab~SALS~点击成绩统计~SALS~存在提交截止时间~SALS~存在提交人数~SALS~存在提交次数~SALS~点击统计图~SALS~存在统计数据更新时间~SALS~存在导出数据~SALS~不存在服务繁忙~SALS~点击题目数据统计~SALS~不存在服务繁忙"/>
-        <parameter name="suiteId" value="6425"/>
-        <parameter name="dependsOnTest" value="我相关的期次.txt1546862637026"/>
-        <parameter name="caseId" value="阶段测试诊断报告.txt1546862637026"/>
-        <parameter name="groupId" value="设备1"/>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner8 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner9">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
         <parameter name="taskId" value="123456"/>
-        <parameter name="dependsOnGroup" value=""/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner9 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner7">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner7 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner10">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner10 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner0">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
         <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
         <methods>
           <include name="runCase"/>
         </methods>
       </class> <!-- com.netease.qa.ai.smartauto.runners.Runner0 -->
+      <class name="com.netease.qa.ai.smartauto.runners.Runner5">
+        <parameter name="caseLines" value="// 拼装开始~SALS~//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ ~SALS~//#宏 登录-online.mtxt~SALS~//进入teachUI自动化测试课程-作业~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~等待2s~SALS~hover添加作业~SALS~点击阶段测试~SALS~在填写阶段测试输入框输入#阶段测试1~SALS~点击保存~SALS~//输入阶段测试内容~SALS~点击复制文本快速录题~SALS~点击保存题目~SALS~存在袋子里有红、黄、黑、白珠子各10粒，要想保证摸出五粒颜色相同的珠子，至少摸出多少粒?~SALS~//删除创建的阶段测试~SALS~打开#http://teach.geek.163.com/terms/400000003522074#/m/exam/list/~SALS~如果不存在阶段测试1#然后#点击未关联章节练习左侧元素~SALS~存在阶段测试1~SALS~点击草稿上侧元素~SALS~点击确认删除~SALS~不存在阶段测试1~SALS~存在添加作业"/>
+        <parameter name="suiteId" value="6464"/>
+        <parameter name="dependsOnTest" value="权限管理.txt1546929884128"/>
+        <parameter name="caseId" value="创建阶段测试草稿&amp;删除1.txt1546929884128"/>
+        <parameter name="groupId" value="设备3"/>
+        <parameter name="taskId" value="123456"/>
+        <parameter name="dependsOnGroup" value="设备1"/>
+        <parameter name="extInfo" value="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}"/>
+        <methods>
+          <include name="runCase"/>
+        </methods>
+      </class> <!-- com.netease.qa.ai.smartauto.runners.Runner5 -->
     </classes>
-  </test> <!-- _设备1_(failed) -->
-</suite> <!-- Failed suite [case 220190107_200355.xml] -->
+  </test> <!-- _设备1_设备3_(failed) -->
+</suite> <!-- Failed suite [case 220190108_144442.xml] -->
