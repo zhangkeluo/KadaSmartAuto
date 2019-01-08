@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<suite id="teachUI执行集">
+<suite id="teach线上">
   <group id="设备1" dependsOn="">
     <test id="我相关的期次.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\工作台\我相关的期次.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
