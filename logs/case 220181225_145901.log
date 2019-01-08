@@ -1,6 +1,0 @@
-2018-12-25 14:59:05,711 INFO  [main (com.netease.qa.ai.smartauto.runners.TestCreateXML.main:135)] 执行开始，在这里查看报告：http://smartauto.hz.netease.com/smartauto/local_detail/C5a_7UAOfAA=
- 2018-12-25 14:59:06,140 INFO  [TestNG-tests-1 (com.netease.qa.ai.smartauto.Dispacher.init:204)] loghost=http://smartauto.hz.netease.com/report
- 2018-12-25 14:59:06,142 INFO  [TestNG-tests-1 (com.netease.qa.ai.smartauto.impl.WebOperator.<init>:30)] 【web端自动化测试】开始打开浏览器。。
- 2018-12-25 14:59:09,793 INFO  [TestNG-tests-1 (com.netease.qa.ai.smartauto.impl.webclient.WebNodeServer.<init>:69)] 【web端自动化测试】初始化WebNodeServer成功!
- 2018-12-25 14:59:09,797 INFO  [TestNG-tests-1 (com.netease.qa.ai.smartauto.Dispacher.setLocalDeviceInfo:244)] #################### setlocaldeviceinfo
- 

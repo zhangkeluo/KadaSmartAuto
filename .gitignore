@@ -1,4 +1,5 @@
-# 提交忽略规则
+﻿# 提交忽略规则
 /chromedevd
 /logs
 /test-output
+*.a

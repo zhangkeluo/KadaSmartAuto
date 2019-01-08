@@ -1,6 +1,0 @@
-2018-09-18 19:32:28,666 INFO  [main (com.netease.qa.ai.smartauto.runners.TestCreateXML.main:130)] 执行开始，在这里查看报告：http://smartauto.hz.netease.com/smartauto/local_detail/2076
- 2018-09-18 19:32:28,837 INFO  [pool-1-thread-1 (com.netease.qa.ai.smartauto.Dispacher.init:161)] loghost=https://10086.netease.com/report
- 2018-09-18 19:32:45,783 ERROR [pool-1-thread-1 (com.netease.qa.ai.smartauto.impl.AndroidOperator.init:125)] FA54AYJ03838 Dispacher 初始化失败，fail early
- 2018-09-18 19:32:45,797 ERROR [pool-1-thread-1 (com.netease.qa.ai.smartauto.scheduler.DeviceManager.run:395)] 设备初始化失败了，放弃这个设备：FA54AYJ03838
- 2018-09-18 19:32:45,797 INFO  [TestNG-tests-1 (com.netease.qa.ai.smartauto.scheduler.DeviceManager.initializeDispachers:403)] 并发初始化全部可用设备已完成
- 
