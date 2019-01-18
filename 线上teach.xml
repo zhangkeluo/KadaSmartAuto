@@ -4,7 +4,6 @@
     <test id="我相关的期次.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\工作台\我相关的期次.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
       <line>//note：hover问号icon没有写</line>
-      <line>打开#https://100.163.com</line>
       <line>#宏 登录-online.mtxt</line>
       <line>//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )</line>
       <line>//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;</line>
@@ -24,22 +23,26 @@
       <line>在密码输入框输入#qa1234</line>
       <line>点击登 录</line>
       <line>等待2s</line>
+      <line>不存在服务繁忙</line>
       <line>点击工作台</line>
       <line>存在teach后台UI自动化测试机构</line>
       <line>//hover教学负责人右侧元素</line>
       <line/>
       <line>// 1）点击期次名称</line>
+      <line>上滑直至出现收费-可学-有实体</line>
       <line>点击收费-可学-有实体</line>
       <line>等待2s</line>
       <line>存在Scratch作业</line>
       <line>关闭当前窗口</line>
-      <line>存在工作台</line>
+      <line/>
       <line>// 2）点击“批改”button</line>
       <line>左滑</line>
-      <line>点击批改</line>
+      <line>点击最后一批改</line>
       <line>等待2s</line>
       <line>存在Scratch作业</line>
+      <line>不存在服务繁忙</line>
       <line>关闭当前窗口</line>
+      <line>下滑直至出现工作台</line>
       <line>存在工作台</line>
     </test>
     <test id="scratch作业统计.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\批改统计\统计\scratch作业统计.txt" dependsOn="我相关的期次.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
@@ -702,7 +705,24 @@
   <group id="设备2" dependsOn="">
     <test id="课程默认期次更改.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\课程默认期次更改.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
-      <line>//#宏 登录-online.mtxt</line>
+      <line>#宏 登录-online.mtxt</line>
+      <line>//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )</line>
+      <line>//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;</line>
+      <line>//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用</line>
+      <line>//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;</line>
+      <line>//宏文件内部 eg：在账号输入框输入$[1]</line>
+      <line>//                           在密码输入框输入$[2]</line>
+      <line>清除cookie</line>
+      <line>//线上-UI自动化测试机构</line>
+      <line>打开#http://teach.geek.163.com/400000000672064.htm</line>
+      <line>//测试环境-UI自动化测试机构</line>
+      <line>//打开#http://teach.geek.163.com/400000001381002.htm</line>
+      <line>最大化浏览器窗口</line>
+      <line>点击邮箱登录</line>
+      <line>在邮箱登录下侧元素输入#xdfqa7@163.com</line>
+      <line>//在输入邮箱帐号输入框输入#xdfqa7@163.com</line>
+      <line>在密码输入框输入#qa1234</line>
+      <line>点击登 录</line>
       <line>等待2s</line>
       <line>最大化浏览器窗口</line>
       <line>打开#http://teach.geek.163.com/400000000672064.htm#/courses/self</line>
@@ -958,24 +978,7 @@
     </test>
     <test id="期次查看编辑&amp;已有期次课程删除.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\期次查看编辑&amp;已有期次课程删除.txt" dependsOn="课程默认期次更改.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
-      <line>#宏 登录-online.mtxt</line>
-      <line>//宏的使用方法简述：(详情可查看 http://smartauto.hz.netease.com/docs/tutorial/macro.html )</line>
-      <line>//宏文件的调用及传参方式（可将宏文件拖入编辑器进行调用）：#宏 宏文件名 &lt;参数1&gt; &lt;参数2&gt;</line>
-      <line>//宏文件内部需要以 $[1] $[2] 的方式引用外部传入的参数，相同变量支持多次重复使用</line>
-      <line>//外部调用宏 eg：#宏 登录.mtxt &lt;test@163.com&gt; &lt;testpassword&gt;</line>
-      <line>//宏文件内部 eg：在账号输入框输入$[1]</line>
-      <line>//                           在密码输入框输入$[2]</line>
-      <line>清除cookie</line>
-      <line>//线上-UI自动化测试机构</line>
-      <line>打开#http://teach.geek.163.com/400000000672064.htm</line>
-      <line>//测试环境-UI自动化测试机构</line>
-      <line>//打开#http://teach.geek.163.com/400000001381002.htm</line>
-      <line>最大化浏览器窗口</line>
-      <line>点击邮箱登录</line>
-      <line>在邮箱登录下侧元素输入#xdfqa7@163.com</line>
-      <line>//在输入邮箱帐号输入框输入#xdfqa7@163.com</line>
-      <line>在密码输入框输入#qa1234</line>
-      <line>点击登 录</line>
+      <line>//#宏 登录-online.mtxt</line>
       <line>等待2s</line>
       <line/>
       <line>打开#http://teach.geek.163.com/400000000672064.htm#/courses/self</line>
@@ -1192,7 +1195,7 @@
       <line>存在期次介绍页</line>
       <line/>
     </test>
-    <test id="scratch无初始作业编辑&amp;保存.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\作业\scratch无初始作业编辑&amp;保存.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+    <test id="scratch无初始作业编辑&amp;保存.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\作业\scratch无初始作业编辑&amp;保存.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
       <line>//#宏 登录-online.mtxt</line>
       <line>//进入teachUI自动化测试课程-作业</line>
@@ -1294,7 +1297,7 @@
       <line/>
       <line/>
     </test>
-    <test id="创建scratch草稿&amp;删除.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\作业\创建scratch草稿&amp;删除.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+    <test id="创建scratch草稿&amp;删除.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\作业\创建scratch草稿&amp;删除.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
       <line>//#宏 登录-online.mtxt</line>
       <line>//进入teachUI自动化测试课程-作业</line>
@@ -1358,7 +1361,7 @@
       <line>不存在多媒体作业1</line>
       <line>存在添加作业</line>
     </test>
-    <test id="创建阶段测试草稿&amp;删除1.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\作业\创建阶段测试草稿&amp;删除1.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+    <test id="创建阶段测试草稿&amp;删除1.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\作业\创建阶段测试草稿&amp;删除1.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
       <line>//#宏 登录-online.mtxt</line>
       <line>//进入teachUI自动化测试课程-作业</line>
@@ -1439,7 +1442,7 @@
       <line>完整存在已发布</line>
       <line/>
     </test>
-    <test id="阶段测试编辑&amp;保存.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\作业\阶段测试编辑&amp;保存.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+    <test id="阶段测试编辑&amp;保存.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\作业\阶段测试编辑&amp;保存.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
       <line>//#宏 登录-online.mtxt</line>
       <line>//进入teachUI自动化测试课程-作业</line>
@@ -1491,7 +1494,7 @@
       <line>点击发布并存在提示发布成功</line>
       <line>完整存在已发布</line>
     </test>
-    <test id="价格设置.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\价格设置.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+    <test id="价格设置.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\价格设置.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
       <line>//#宏 登录-online.mtxt</line>
       <line>//进入teachUI自动化测试课程-公告</line>
@@ -1523,34 +1526,6 @@
       <line>在收费右侧元素输入#0.01</line>
       <line>点击保存并发布并存在提示保存成功</line>
       <line/>
-    </test>
-    <test id="公告.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\公告.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
-      <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
-      <line>//#宏 登录-online.mtxt</line>
-      <line>//进入teachUI自动化测试课程-公告</line>
-      <line>打开#http://teach.geek.163.com/terms/400000003522074#/notice</line>
-      <line>等待2s</line>
-      <line/>
-      <line>点击创建公告</line>
-      <line/>
-      <line>在推送Push消息及短信通知上侧元素输入#这是公告内容！</line>
-      <line>点击设为重要公告</line>
-      <line>点击保存草稿</line>
-      <line>在请输入内容左侧元素输入#测试公告</line>
-      <line>点击保存草稿</line>
-      <line>等待1s</line>
-      <line/>
-      <line>存在操作时间</line>
-      <line>点击发布</line>
-      <line>存在发布时间</line>
-      <line/>
-      <line>点击测试公告右侧元素</line>
-      <line>点击发布并存在提示发布成功</line>
-      <line/>
-      <line>点击删除</line>
-      <line>存在确定要删除吗？</line>
-      <line>点击确定</line>
-      <line>存在还没有创建公告</line>
     </test>
     <test id="学生管理.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\学生管理.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
@@ -1651,7 +1626,7 @@
       <line/>
       <line/>
     </test>
-    <test id="期次属性.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\期次属性.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+    <test id="期次属性.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\期次属性.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
       <line>//#宏 登录-online.mtxt</line>
       <line>//进入teachUI自动化测试课程-公告</line>
@@ -1696,7 +1671,7 @@
       <line>点击版权及可见性</line>
       <line>不存在天后完全关闭</line>
     </test>
-    <test id="课程团队.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\课程团队.txt" dependsOn="期次介绍页.txt" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
+    <test id="课程团队.txt" filePath="C:\Users\zhangkeluo\Desktop\workspace\KadaSmartAuto\web\teach后台\课程管理\编辑期次\课程团队.txt" dependsOn="" extinfo="{&quot;switch&quot;:false,&quot;package&quot;:&quot;&quot;}">
       <line>//请开始自动化脚本的编写，具体的语法说明可查看“帮助&gt;API文档“ </line>
       <line>//#宏 登录-online.mtxt</line>
       <line>//进入teachUI自动化测试课程-公告</line>
